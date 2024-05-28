@@ -23,6 +23,7 @@ class Word(BaseModel):
 word_records = [
     Word(word="Apfel"),
     Word(word="Auto"),
+    Word(word="Velo"),
     Word(word="Berlin")]
 
 
