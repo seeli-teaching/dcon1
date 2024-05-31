@@ -1,12 +1,21 @@
-# FastAPI first steps
-Erste Schritte mit der FastAPI in Python
+# Simple Python API (FastAPI) in a Dev Container
 
-### Notwendige Schritte zum Test der API
+[
+    ![Open in Remote - Containers](
+        https://xebia.com/wp-content/uploads/2023/11/v1.svg    )
+](
+    https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/seeli-teaching/simple-python-api-devcon.git
+)
 
-1. Öffne die Datei test.http
-4. Teste root URL und foo-URL 
-5. Teste GET all Words
-6. Teste GET specific word und GET unknown word
-7. Teste Neues Wort erfassen
-8. Teste das Löschen von vorhandenen und unbekannten Worten.
-9. Schau dir die automatisch erstellte API-Dokumentation im Browser an: url/docs
+
+## Aufgabenstellung
+Erstelle ein Docker Image und lass dieses Image in deinem Azure-Account in der Cloud laufen
+
+### Notwendige Schritte
+1. Erstelle ein Dockerfile
+4. Erstelle ein .dockerignore File 
+5. Erstelle ein Dockerimage der API, welches in der Cloud laufen soll.
+6. Gib dem Image den richtigen Namen
+7. Lade das Image auf Dockerhub hoch
+8. Erstelle die App in Azure
+9. Teste die Applikation
